@@ -1,4 +1,4 @@
-Code:
+#this code displays the information about last backups of an RDP.
 
 $rdpinst = Read-Host -Prompt 'Imput your RDBinstance name ?'
 
