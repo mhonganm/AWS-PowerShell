@@ -1,4 +1,4 @@
-# Adding tags in instances
+# Adding tags to instances
 # Variables
 $instanssi = Read-Host -Prompt 'Input your instance ID you wanna Tag ?'
 $tagkey = Read-Host -Prompt 'Input the name of the tag ?'
