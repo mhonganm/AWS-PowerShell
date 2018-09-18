@@ -1,3 +1,8 @@
+# This code creates an VPC, user is asked for the CIDR and one Public and one Private Subnet 
+# and then it creates an VPC like shown in the diagram. Running the code will also configure 
+# DHCP, availablity zone, Internet Gateway. It also creates Access Controll Lists, Routetables 
+# and associates them to public subnet.
+
 # Lauanching new VPC
 # Variables
 $VPCCIDR = Read-Host -Prompt 'Give the CIDR, like a 192.168.0.0/16 ?'
